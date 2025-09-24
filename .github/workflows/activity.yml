@@ -16,8 +16,8 @@ jobs:
       - name: Daily activity
         run: |
           echo "Daily activity on $(date)" >> activity.log
-          git config user.name "ТВОЙ_НИК"
-          git config user.email "ПОЧТА_К_АККАУНТУ_НА_GITHUB"
+          git config user.name Anverte
+          git config user.email anastasiakorobova6086@gmail.com
           git add activity.log
           git commit -m "🤖 Daily activity: $(date)"
           git push
